@@ -1,0 +1,57 @@
+[awesome]
+src.git = "https://github.com/awesomeWM/awesome"
+fetch.github = "awesomeWM/awesome"
+
+[awesome-composite]
+src.git = "https://github.com/xinhaoyuan/awesome"
+src.branch = "xy-dev"
+fetch.github = "xinhaoyuan/awesome"
+
+[lshw]
+src.git = "https://github.com/lyonel/lshw"
+fetch.github = "lyonel/lshw"
+
+[mpv-discord]
+src.git = "https://github.com/tnychn/mpv-discord"
+fetch.github = "tnychn/mpv-discord"
+
+[nvidia-exec]
+src.git = "https://github.com/pedro00dk/nvidia-exec"
+fetch.github = "pedro00dk/nvidia-exec"
+
+[phocus]
+src.git = "https://github.com/phocus/gtk"
+fetch.github = "phocus/gtk"
+
+[picom]
+src.git = "https://github.com/yshui/picom"
+fetch.github = "yshui/picom"
+
+[picom-dccsillag]
+src.git = "https://github.com/dccsillag/picom"
+src.branch = "implement-window-animations"
+fetch.github = "dccsillag/picom"
+
+[picom-ft-labs]
+src.git = "https://github.com/FT-Labs/picom"
+src.branch = "generalanimation"
+fetch.github = "FT-Labs/picom"
+
+[picom-pijulius]
+src.git = "https://github.com/pijulius/picom"
+src.branch = "implement-window-animations"
+fetch.github = "pijulius/picom"
+
+[river]
+src.git = "https://github.com/riverwm/river"
+fetch.git = "https://github.com/riverwm/river.git"
+git.fetchSubmodules = true
+
+[stevenblack-blocklist]
+src.git = "https://github.com/stevenblack/hosts"
+fetch.github = "stevenblack/hosts"
+
+[wezterm]
+src.git = "https://github.com/wez/wezterm"
+fetch.git = "https://github.com/wez/wezterm.git"
+git.fetchSubmodules = true
