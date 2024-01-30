@@ -23,7 +23,7 @@
           inherit system;
           allowUnfree = true;
           allowUnsupportedSystem = true;
-          allowBroken = true;
+          config.allowBroken = true;
           overlays = [ self.overlays.default inputs.emacs.overlay ];
         };
       in
