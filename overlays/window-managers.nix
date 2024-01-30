@@ -37,8 +37,8 @@
         gtk3Support = true;
       };
 
-      awesome-lua5_4_compat-git = final.awesome-git.override {
-        lua = prev.lua5_4_compat;
+      awesome-lua5_3_compat-git = final.awesome-git.override {
+        lua = prev.lua5_3_compat;
       };
 
       # Yes, it's a *compositor* because of how Wayland works, I can't be bothered.
