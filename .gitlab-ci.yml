@@ -4,7 +4,7 @@ build:
   before_script:
     - nix --experimental-features "nix-command flakes" profile install nixpkgs#cachix nixpkgs#bash nixpkgs#gnugrep
     - cachix authtoken "$CACHIX_AUTH_TOKEN"
-    - cachix use fortuneteller2k
+    - cachix use shard7
     - nix path-info --all > /tmp/store-path-pre-build
   script:
     - nix build -L .#awesome-git .#awesome-composite-git .#picom-git .#picom-dccsillag .#picom-pijulius .#awesome-lua5_3_compat-git
